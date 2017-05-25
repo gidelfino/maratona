@@ -9,7 +9,6 @@ typedef pair<int, int> pii;
 #define for_tests(t, tt) int t; scanf("%d", &t); for(int tt = 1; tt <= t; tt++)
 template<typename T> inline T abs(T t) { return t < 0? -t : t; }
 const ll modn = 1000000007;
-inline ll mod(ll x) { return x % modn; }
 const int N = 100005;
 
 int n, p[N], inv[N];
